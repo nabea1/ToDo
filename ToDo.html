@@ -8,7 +8,58 @@
     <header class="tasks-header">
         <h2 class="tasks-title">To Do or Not To Do;That is the ?
         </h2>
-        <a href="#" class="tasks-lists">Lists</a>
+        <style>
+                    <a href="#" class="tasks-lists">Lists
+                        .dropbtn {
+                          background-color:blue;
+                          color: white;
+                          padding: 20px;
+                          font-size: 16px;
+                          border: none;
+                          cursor: pointer;
+                        }
+                        
+                        .dropdown {
+                          position: relative;
+                          display: inline-block;
+                        }
+                        
+                        .dropdown-content {
+                          display: none;
+                          position: absolute;
+                          background-color: #f9f9f9;
+                          min-width: 160px;
+                          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                          z-index: 1;
+                        }
+                        
+                        .dropdown-content a {
+                          color: black;
+                          padding: 12px 16px;
+                          text-decoration: none;
+                          display: block;
+                        }
+                        
+                        .dropdown-content a:hover {background-color: #4ac2f1}
+                        
+                        .dropdown:hover .dropdown-content {
+                          display: block;
+                        }
+                        
+                        .dropdown:hover .dropbtn {
+                          background-color: blue;
+                        }
+                        </style>
+                         <div class="dropdown">
+                                <button class="dropbtn"></button>
+                                <div class="dropdown-content">
+                                <a href="#">Add New Task</a>
+                                <a href="#">Edit Task</a>
+                                <a href="#">Delete Task</a>
+                                </div>
+                              </div>
+                        </head>
+        </a>
     </header>
     <fieldset class="tasks-list">
                 <label class="tasks-list-item">
